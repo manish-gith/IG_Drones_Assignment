@@ -1,0 +1,151 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.main-box {
+    width: 70%;
+    max-width: 700px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+}
+
+
+.grid-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    position: relative;
+}
+
+.logo img {
+    width: 130px;
+    mix-blend-mode:darken;
+    filter: contrast(2);
+}
+
+.icon-right {
+    position: absolute;
+    top: 30px;
+    right: 120px;
+    mix-blend-mode:darken;
+    filter: contrast(2);
+    margin-left: -50px;
+}
+
+.icon-right img {
+    width: 80px;
+}
+
+
+.grid-2 {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.title {
+    font-size: 32px;
+    color: #0f309f;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200; 
+    font-style: normal;
+}
+
+.subtitle {
+    font-size: 42px;
+    color: #0f309f;
+    margin: 5px 0;
+}
+
+.description {
+    font-size: 14px;
+    color: #0f309f;
+    margin-top: 10px;
+}
+
+
+.grid-3 {
+    background: linear-gradient(165deg, white 50%, #1A2D6D 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+}
+
+.icon-left {
+    position: absolute;
+    top: 20%;
+    left: 60px;
+    transform: translateY(-50%);
+    mix-blend-mode:darken;
+    filter: contrast(2);
+}
+
+.icon-left img{
+    width: 100px;
+}
+
+.icon-right-bottom img {
+    width: 45px;
+}
+
+.photo-container {
+    text-align: center;
+    position: relative;
+}
+
+.profile-photo {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid #1A2D6D;
+    margin-bottom: 5px; 
+}
+
+.name-title {
+    margin: 0; 
+}
+
+.name, .designation {
+    background-color: #1A2D6D;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 16px;
+    display: inline-block;
+    border: 2px solid white;
+    margin-bottom: -55px;
+}
+
+.designation {
+    font-size: 16px;
+    border: 0px;
+
+}
+
+.icon-right-bottom {
+    position: absolute;
+    bottom: 140px;
+    right: 160px;
+}
